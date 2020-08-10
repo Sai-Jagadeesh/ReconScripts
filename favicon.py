@@ -1,3 +1,5 @@
+#python Script to get hash value of a favicon
+
 import mmh3
 import requests
 import codecs
