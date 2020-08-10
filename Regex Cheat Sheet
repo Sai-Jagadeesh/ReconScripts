@@ -1,0 +1,32 @@
+. - Any character expect a new line
+\d - Digit (0-9)
+\D - Not a Digit
+\w - word character (a-z, A-z, 0-9, _)
+\W - Not a word character 
+\s - Whitespace (space, tab, new line)
+\S - Not a white space
+
+
+\b - Word boundary
+\B - Not a word boundary
+^ - Beggining of a string
+$ - End of a string
+
+[] - Matches characters in brackets
+[^ ] - Matches characters not in brackets
+| - Either Or
+() - group
+
+Quantifiers
+
+* - 0 or more
++ - 1 or more
+? - 0 or one
+{3} - Excat number
+{3, 4} - Range of numbers (Min, Max)
+
+
+
+# Sample Regex #
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0=9-]
