@@ -1,1 +1,1 @@
-Scripts to Automate recon process
+Scripts to automate recon process
